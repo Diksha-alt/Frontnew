@@ -38,11 +38,11 @@ const Slider=()=>{
 	return(
 		<>
 
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
      
-      <div class="carousel-inner">
-          <div class="carousel-item active" style={myStyle1}>
-            <div class="row align-items-center h-100">
+      <div className="carousel-inner">
+          <div className="carousel-item active" style={myStyle1}>
+            <div className="row align-items-center h-100">
               <div className="col-md-6 d-flex align-items-center">
                 <div className="carousel-content">
                     {/* <div className="sub-content grey content-font">Powerful Sports Theme</div> */}
@@ -56,12 +56,12 @@ const Slider=()=>{
                 </div>
               </div>
               <div className="col-md-6">
-          	      <img src={Img2} class="d-block w-100" alt="..." />
+          	      <img src={Img2} className="d-block w-100" alt="..." />
               </div>
             </div>
           </div>
-          <div class="carousel-item " style={myStyle2}>
-              <div class="row h-100 align-items-center">
+          <div className="carousel-item " style={myStyle2}>
+              <div className="row h-100 align-items-center">
                 <div className="col-md-6 d-flex align-items-center h-100">
                   <div className="carousel-content">
                     {/* <div className="sub-content grey content-font">Powerful Sports Theme</div> */}
@@ -82,8 +82,8 @@ const Slider=()=>{
                 </div>
               </div>
           </div>
-           <div class="carousel-item " style={myStyle2}>
-              <div class="row h-100 align-items-center">
+           <div className="carousel-item " style={myStyle2}>
+              <div className="row h-100 align-items-center">
                 <div className="col-md-6 d-flex align-items-center h-100">
                   <div className="carousel-content">
                     {/* <div className="sub-content grey content-font">Powerful Sports Theme</div> */}
@@ -104,13 +104,13 @@ const Slider=()=>{
               </div>
           </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+      <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+      <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Next</span>
       </button>
       </div>
     </>
