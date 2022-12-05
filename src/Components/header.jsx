@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom';
 import Logo from '../assets/logo.png';
 
 
@@ -34,6 +35,12 @@ const Header=()=>{
 					<li className="nav-item">
 			          <a className="nav-link text-white fw-bold mx-2" href="#">Beauty & Health</a>
 			        </li>
+					<li className="nav-item">
+			          <NavLink to="/login" className="nav-link text-white fw-bold mx-2" >LOGIN</NavLink>
+			        </li>
+					<li className="nav-item">
+			          <NavLink to="/signup" className="nav-link text-white fw-bold mx-2" >Register</NavLink>
+			        </li>
 			        {/*<li className="nav-item dropdown">
 			          <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 			            Dropdown
@@ -55,11 +62,11 @@ const Header=()=>{
 			</nav>
 			<div className="sidebar-btn-wrapper d-flex align-items-center">
 				<ul className='d-flex align-items-center m-0'>
-				<li className="nav-item">
+					{/* <li className="nav-item">
 			          <a className="nav-link text-white fw-bold mx-2" href="#">
 						<i class="fa fa-user text-white fs-4 me-4" aria-hidden="true"></i>
 					  </a>
-			        </li>
+			        </li> */}
 					<li className="nav-item">
 			          <a className="nav-link text-white fw-bold mx-2" href="#">
 					  <i class="fa fa-shopping-cart text-white fs-4 me-4" aria-hidden="true"></i>
