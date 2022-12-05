@@ -31,7 +31,11 @@ const Login = () => {
 
                       <form className="mx-1 mx-md-4">
                         <div className="d-flex flex-row align-items-center mb-4">
+<<<<<<< HEAD
                           {/* <i className="fas fa-envelope fa-lg me-3 fa-fw"></i> */}
+=======
+                          <i className="fa fa-envelope fa-lg me-3 fa-fw"></i>
+>>>>>>> 842da96e3974ef30bc88b1c4f1509fccac121768
                           <div className="form-outline flex-fill mb-0">
                             <input
                               type="email"
@@ -50,7 +54,11 @@ const Login = () => {
                         </div>
 
                         <div className="d-flex flex-row align-items-center mb-4">
+<<<<<<< HEAD
                           {/* <i className="fas fa-lock fa-lg me-3 fa-fw"></i> */}
+=======
+                          <i className="fa fa-lock fa-lg me-3 fa-fw"></i>
+>>>>>>> 842da96e3974ef30bc88b1c4f1509fccac121768
                           <div className="form-outline flex-fill mb-0">
                             <input
                               type="password"
@@ -68,7 +76,7 @@ const Login = () => {
                           </div>
                         </div>
 
-                        <div className="form-check d-flex justify-content-center mb-5">
+                        {/* <div className="form-check d-flex justify-content-center mb-5">
                           <input
                             className="form-check-input me-2"
                             type="checkbox"
@@ -82,7 +90,7 @@ const Login = () => {
                             I agree all statements in{" "}
                             <a href="#">Terms of service</a>
                           </label>
-                        </div>
+                        </div> */}
 
                         <div className="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
                           <button

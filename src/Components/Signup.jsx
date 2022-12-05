@@ -44,7 +44,7 @@ const Signup = () => {
 
                       <form className="mx-1 mx-md-4">
                         <div className="d-flex flex-row align-items-center mb-4">
-                          <i className="fas fa-user fa-lg me-3 fa-fw"></i>
+                          <i className="fa fa-user fa-lg me-3 fa-fw"></i>
                           <div className="form-outline flex-fill mb-0">
                             <input
                               name="name"
@@ -64,7 +64,7 @@ const Signup = () => {
                         </div>
 
                         <div className="d-flex flex-row align-items-center mb-4">
-                          <i className="fas fa-envelope fa-lg me-3 fa-fw"></i>
+                          <i className="fa fa-envelope fa-lg me-3 fa-fw"></i>
                           <div className="form-outline flex-fill mb-0">
                             <input
                               name="username"
@@ -84,7 +84,7 @@ const Signup = () => {
                         </div>
 
                         <div className="d-flex flex-row align-items-center mb-4">
-                          <i className="fas fa-lock fa-lg me-3 fa-fw"></i>
+                          <i className="fa fa-lock fa-lg me-3 fa-fw"></i>
                           <div className="form-outline flex-fill mb-0">
                             <input
                               name="password"
@@ -104,7 +104,7 @@ const Signup = () => {
                         </div>
 
                         <div className="d-flex flex-row align-items-center mb-4">
-                          <i className="fas fa-key fa-lg me-3 fa-fw"></i>
+                          <i className="fa fa-key fa-lg me-3 fa-fw"></i>
                           <div className="form-outline flex-fill mb-0">
                             <input
                               name="confirmpassword"
@@ -123,7 +123,7 @@ const Signup = () => {
                           </div>
                         </div>
 
-                        <div className="form-check d-flex justify-content-center mb-5">
+                        {/* <div className="form-check d-flex justify-content-center mb-5">
                           <input
                             className="form-check-input me-2"
                             type="checkbox"
@@ -137,7 +137,7 @@ const Signup = () => {
                             I agree all statements in{" "}
                             <a href="#">Terms of service</a>
                           </label>
-                        </div>
+                        </div> */}
 
                         <div className="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
                           <button

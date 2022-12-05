@@ -14,11 +14,12 @@ function App() {
       <Slider/>
       <About/>
       <Trending/>
-      <BrowserRouter>
+      <Footer/>
+      {/* <BrowserRouter>
           <Routes>
               <Route path='/' element={<Footer />} />
           </Routes>
-      </BrowserRouter> 
+      </BrowserRouter>  */}
     </>
   )
 }
