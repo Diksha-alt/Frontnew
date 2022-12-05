@@ -7,8 +7,6 @@ const Login = () => {
   const [username, setusername] = useState("");
   const [password, setpassword] = useState("");
 
-
-
   const dispatch = useDispatch();
 
   const loginHandle = (user) => {
@@ -33,7 +31,7 @@ const Login = () => {
 
                       <form className="mx-1 mx-md-4">
                         <div className="d-flex flex-row align-items-center mb-4">
-                          <i className="fas fa-envelope fa-lg me-3 fa-fw"></i>
+                          {/* <i className="fas fa-envelope fa-lg me-3 fa-fw"></i> */}
                           <div className="form-outline flex-fill mb-0">
                             <input
                               type="email"
@@ -52,7 +50,7 @@ const Login = () => {
                         </div>
 
                         <div className="d-flex flex-row align-items-center mb-4">
-                          <i className="fas fa-lock fa-lg me-3 fa-fw"></i>
+                          {/* <i className="fas fa-lock fa-lg me-3 fa-fw"></i> */}
                           <div className="form-outline flex-fill mb-0">
                             <input
                               type="password"
