@@ -1,4 +1,6 @@
 import { React, useState } from "react";
+import Header from "./header.jsx";
+import Footer from "./footer.jsx";
 import { Register, signup } from "../action/index";
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
@@ -30,7 +32,8 @@ const Signup = () => {
 
   return (
     <>
-      <section className="vh-100">
+      <Header />
+      <section className="my-5">
         <div className="container h-100">
           <div className="row d-flex justify-content-center align-items-center h-100">
             <div className="col-lg-12 col-xl-11">
@@ -164,6 +167,7 @@ const Signup = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </>
   );
 };

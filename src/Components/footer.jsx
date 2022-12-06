@@ -167,9 +167,7 @@ const Footer = () => {
                   <ul className="list-inline">
                     <li className="list-item mb-2">
                       <NavLink to="/" className="grey text-decoration-none">
-                        <span className="contact-info">
-                          Latest NFL firings{" "}
-                        </span>
+                        <span className="contact-info">Latest NFL firings</span>
                         <span className="contact-info small-font d-block mt-2">
                           February 13, 2020
                         </span>

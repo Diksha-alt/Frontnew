@@ -1,7 +1,9 @@
 import { React, useState } from "react";
 import { login } from "../action/index";
-import { useSelector } from "react-redux";
+// import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
+import Header from "./header.jsx";
+import Footer from "./footer.jsx";
 
 const Login = () => {
   const [username, setusername] = useState("");
@@ -17,7 +19,8 @@ const Login = () => {
 
   return (
     <>
-      <section className="vh-100">
+      <Header />
+      <section className="my-5">
         <div className="container h-100">
           <div className="row d-flex justify-content-center align-items-center h-100">
             <div className="col-lg-12 col-xl-11">
@@ -31,11 +34,7 @@ const Login = () => {
 
                       <form className="mx-1 mx-md-4">
                         <div className="d-flex flex-row align-items-center mb-4">
-<<<<<<< HEAD
                           {/* <i className="fas fa-envelope fa-lg me-3 fa-fw"></i> */}
-=======
-                          <i className="fa fa-envelope fa-lg me-3 fa-fw"></i>
->>>>>>> 842da96e3974ef30bc88b1c4f1509fccac121768
                           <div className="form-outline flex-fill mb-0">
                             <input
                               type="email"
@@ -54,11 +53,7 @@ const Login = () => {
                         </div>
 
                         <div className="d-flex flex-row align-items-center mb-4">
-<<<<<<< HEAD
                           {/* <i className="fas fa-lock fa-lg me-3 fa-fw"></i> */}
-=======
-                          <i className="fa fa-lock fa-lg me-3 fa-fw"></i>
->>>>>>> 842da96e3974ef30bc88b1c4f1509fccac121768
                           <div className="form-outline flex-fill mb-0">
                             <input
                               type="password"
@@ -117,6 +112,7 @@ const Login = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </>
   );
 };
